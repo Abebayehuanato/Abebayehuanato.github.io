@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<title>circle practice</title> 
+<link rel="stylesheet" type="text/css" href="circle practice 1.css"> 
+</head> 
+<body> 
+<h1>SVG PRACTICE 1</h1> 
+<br> 
+<div class="projects"> 
+CIRCLES 
+<br><br>
+<svg 
+	 x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+
+		<g Class="dev1">
+			<circle fill="#45A5AF" cx="127.15" cy="127.15" r="127.15"/>
+		</g>
+		<g Class="dev5">
+			<ellipse fill="#B0E7EA" cx="138.915" cy="127.15" rx="85.632" ry="81.956"/>
+		</g>
+		<g Class="dev2">
+			<circle fill="#E1F781" cx="58.812" cy="102.741" r="16.29"/>
+			<ellipse fill="#E1F781" cx="207.319" cy="85.747" rx="18.365" ry="16.994"/>
+			<circle fill="#E1F781" cx="188.954" cy="192.816" r="18.326"/>
+			<circle fill="#E1F781" cx="142.832" cy="130.951" r="23.134"/>
+		</g>
+		<g Class="dev3">
+			<circle fill="#A8A8A0" cx="130.146" cy="48.127" r="17.195"/>
+			<circle fill="#A8A8A0" cx="98.928" cy="197.789" r="17.195"/>
+			<circle fill="#A8A8A0" cx="53.283" cy="138.648" r="17.195"/>
+			<circle fill="#A8A8A0" cx="216.206" cy="163.4" r="17.195"/>
+		</g>
+		<g Class="dev4">
+			<circle fill="#8447A0" cx="82.704" cy="66.229" r="16.225"/>
+			<circle fill="#8447A0" cx="225.684" cy="124.042" r="16.225"/>
+			<circle fill="#8447A0" cx="177.589" cy="56.337" r="16.225"/>
+			<circle fill="#8447A0" cx="144.462" cy="205.564" r="16.225"/>
+			<circle fill="#8447A0" cx="70.478" cy="174.49" r="16.225"/>
+		</g>
+</svg>
+</div>
+<div class="buttons" id="sidebar" > 
+<button id="dev1">dev1</button><br><br> 
+<button id="dev2">dev2</button><br><br> 
+<button id="dev3">dev3</button><br><br> 
+<button id="dev4">dev4</button><br><br> 
+</div> 
+<script> 
+const dev1Button = document.querySelector('#dev1'); 
+const dev2Button = document.querySelector('#dev2'); 
+const dev3Button = document.querySelector('#dev3'); 
+const dev4Button = document.querySelector('#dev4'); 
+const dev1 = document.querySelector('.dev1'); 
+const dev2 = document.querySelector('.dev2'); 
+const dev3 = document.querySelector('.dev3'); 
+const dev4 = document.querySelector('.dev4'); 
+dev1Button.addEventListener('click', e =>
+{ dev1.classList.toggle('removed');}); 
+dev2Button.addEventListener('click', e =>{ 
+dev2.classList.toggle('removed');}); 
+dev3Button.addEventListener('click', e =>{ 
+dev3.classList.toggle('removed');}); 
+dev4Button.addEventListener('click', e =>{ 
+dev4.classList.toggle('removed');});
+</script> </body> </html>
