@@ -1,11 +1,12 @@
 /* <style type="text/css">  */ 
  
-body {     text-align: center;     background-color: rgb(209, 206, 164);     padding: 100px;    
+body {     text-align: center;     background-image: url(3D-HD-Wallpapers-Abstract-Desktop-Backgrounds.jpg);
+    background-size: cover;     padding: 100px;    
      padding-top: 10px; } h1 {     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     
-        background-color:rosybrown;     color: white; } 
+        background-color:rgba(49, 59, 82, 0.705);     color: white; } 
  
 h2 {     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;     color: white;    
-     background-color: rgb(175, 94, 94); } .svgClass {     background-color:rgb(139, 85, 85);     float:left;     width:70%;     color:#fff;     padding:10px;    
+     background-color: rgba(175, 94, 94, 0.603); } .svgClass {     background-color:rgba(139, 85, 85, 0.705);     float:left;     width:70%;     color:#fff;     padding:10px;    
      box-sizing:border-box; } polygon{     fill:white; transition: 1s fill; } polygon:hover {     fill: burlywood;       } 
      .lideta { stroke:yellow;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(209, 206, 164); fill-opacity: 50%;}
       .kirkos{stroke:greenyellow;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(209, 206, 164); fill-opacity: 10%;} 
@@ -19,7 +20,7 @@ h2 {     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 .gulele{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:rgb(209, 206, 164); fill-opacity: 50%;} 
 .removed{ display: none; } button{ 
  
-    position: relative;     color: white;     font-size: 20px;     background:rgb(129, 83, 83);     
+    position: relative;     color: white;     font-size: 20px;     background:rgba(129, 83, 83, 0.801);     
     border:none;     outline: none;     left: 0%;     width: 260px;     text-align: left; } button.hover{    
          fill: whitesmoke; } #sidebar{     text-align: left;     float:right;     width:30%;     background:none;     color:#fff;     padding:0px;     box-sizing:border-box; } 
          
